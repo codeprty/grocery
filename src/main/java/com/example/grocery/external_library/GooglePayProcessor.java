@@ -1,12 +1,9 @@
-// This class implements the PaymentProcessor interface.
-
-// Defines the package.
 package com.example.grocery.external_library;
 
-// Declares a class that implements the PaymentProcessor interface.
+// Processes payments using Google Pay.
 public class GooglePayProcessor implements PaymentProcessor {
-	// Implements the process() method.
-	// Always returns true (simulating successful payment).
+	
+	// Processes the payment and returns success status.
 	public boolean process() {
 		return true;
 	}

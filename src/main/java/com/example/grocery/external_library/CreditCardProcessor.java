@@ -1,11 +1,9 @@
-// Similar to GooglePayProcessor, but for credit card payments.
-
-// Defines the package.
 package com.example.grocery.external_library;
 
-// Declares a class that implements PaymentProcessor.
+// Processes payments using a credit card.
 public class CreditCardProcessor implements PaymentProcessor {
-	// Implements process(), always returning true.
+	
+	// Processes the payment and returns success status.
 	public boolean process() {
 		return true;
 	}

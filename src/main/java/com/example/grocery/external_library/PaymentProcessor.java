@@ -1,10 +1,8 @@
-// This is an interface that defines a contract for payment processing.
-
-// Defines the package where this interface belongs.
 package com.example.grocery.external_library;
 
-// Declares an interface
+// Defines a contract for payment processing implementations.
 public interface PaymentProcessor {
-	// Defines a method without implementation (will be implemented by GooglePayProcessor and CreditCardProcessor).
+	
+	// Processes the payment and returns success status.
 	boolean process();
 }
